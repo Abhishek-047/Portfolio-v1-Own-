@@ -1,80 +1,52 @@
-🌟 Abhishek Panigrahi | Portfolio Website v1
+🌐 Portfolio Website v1
 
-Overview
+A modern, responsive, and user-friendly personal portfolio website designed to showcase my skills, projects, and achievements in a professional online presence.
 
-Welcome to my personal portfolio website (v1) — a digital showcase of my skills, projects, and achievements. This site serves as a professional hub for my online presence.
+🌟 Features
 
-Features
+🏠 Clean & modern multi-section design (Home, About, Projects, Skills, Contact)
+📱 Fully responsive layout for all screen sizes
+✨ Smooth animations and transitions
+💬 Functional contact form
+🔗 Easy navigation between sections
 
-✅ Fully responsive design (Desktop, Tablet, Mobile)
+🛠️ Tech Stack
+Technology 	Description
+💻 HTML5 -->  Structure and content
+🎨 CSS3  -->  Styling and responsiveness
+⚡ JavaScript -->  Interactive elements and animations
+🖼️ Icons -->  Font Awesome / Remix Icons
+📧 Forms -->  Formspree / EmailJS
+🐙 Version Control -->  Git & GitHub
 
-✅ Interactive Home, About, Projects, Skills, Contact sections
-
-✅ Smooth animations and transitions
-
-✅ Minimalistic, easy-to-navigate UI
-
-✅ Functional contact form integration (Formspree / EmailJS)
-
-Tech Stack
-Layer	Technology	Badge
-Frontend	HTML5, CSS3, JavaScript (ES6+)	
-
-UI / Styling	Flexbox, Grid, Media Queries, Optional: TailwindCSS / Bootstrap	
-
-Animations	CSS Transitions & Keyframes, Optional: AOS.js	
-
-Icons	Font Awesome / Remix Icons	
-
-Forms	Formspree / EmailJS	
-
-Version Control	Git & GitHub	
-
-⚡ Note: v1 is fully frontend-based. v2 will include advanced interactivity, dark mode, and enhanced UX.
-
-Project Structure
+📂 Folder Structure
 portfolio-v1/
 │
-├── index.html           # Main HTML page
-├── about.html           # About section
-├── projects.html        # Projects showcase
-├── contact.html         # Contact form
 ├── css/
-│   └── style.css        # Stylesheet
+│   └── style.css
 ├── js/
-│   └── script.js        # JS Interactions
-└── assets/
-    ├── images/          # Images & graphics
-    └── icons/           # Icons
+│   └── script.js
+├── assets/
+│   ├── images/
+│   └── icons/
+├── index.html
+├── about.html
+├── projects.html
+├── contact.html
+└── README.md
 
-Setup & Installation
+🚀 How to Run Locally
 
-Clone the repo:
+Follow these steps to run the project on your system:
 
-git clone https://github.com/<your-username>/portfolio-v1.git
+➡️ Clone the repository
+
+ => git clone https://github.com/<your-username>/portfolio-v1.git
 
 
-Open index.html in your browser.
+➡️ Go to the project directory
 
-For best experience, run via VS Code Live Server.
+ => cd portfolio-v1
 
-Future Plans (v2)
 
-🌙 Dark Mode / Theme Switcher
-
-🛠 More project sections & case studies
-
-✨ Smooth scrolling & dynamic effects
-
-📝 Blog / writing section
-
-♿ Improved accessibility & SEO
-
-Contact Me
-
-✉️ Email: [your-email@example.com
-]
-
-💼 LinkedIn: [your-linkedin-profile]
-
-🐙 GitHub: [your-github-profile]
+➡️ Open index.html in your browser
