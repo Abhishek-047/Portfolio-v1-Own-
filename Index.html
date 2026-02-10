@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Abhishek - Futuristic vCard</title>
+    <link rel="stylesheet" href="Style.css">
+    <!-- Google Fonts for modern, techy fonts -->
+    <link
+        href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700;900&family=Exo:wght@400;600;700&family=Roboto+Mono:wght@400;700&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <!-- Background particle animation -->
+    <div class="particle-container" id="particleContainer"></div>
+
+    <!-- Left Sidebar -->
+    <aside class="sidebar">
+        <div class="sidebar-content">
+            <!-- Profile -->
+            <div class="profile-card">
+                <div class="profile-image">
+                    <img src="Images/Profile.jpeg" alt="Abhishek Profile">
+                </div>
+                <h1 class="profile-name">ABHISHEK</h1>
+                <p class="profile-title">Futuristic Web Developer</p>
+                <p class="profile-bio">Full-Stack Developer | Creative Coder | Tech Enthusiast</p>
+
+                <!-- Profile Stats -->
+            </div>
+
+            <!-- Navigation -->
+            <nav class="sidebar-nav">
+                <ul class="nav-list">
+                    <li><a href="#" data-page="home" class="nav-link active">Home</a></li>
+                    <li><a href="#" data-page="about" class="nav-link">About</a></li>
+                    <li><a href="#" data-page="services" class="nav-link">Tech Stack</a></li>
+                    <li><a href="#" data-page="portfolio" class="nav-link">Projects</a></li>
+                    <li><a href="#" data-page="contact" class="nav-link">Contact</a></li>
+                </ul>
+            </nav>
+
+           
+
+            <!-- Social Links -->
+            <div class="sidebar-socials">
+                <a href="#" class="social-icon" title="GitHub">
+                    <svg viewBox="0 0 24 24" fill="currentColor">
+                        <path
+                            d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v 3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z" />
+                    </svg>
+                </a>
+                <a href="#" class="social-icon" title="LinkedIn">
+                    <svg viewBox="0 0 24 24" fill="currentColor">
+                        <path
+                            d="M20.447 20.452h-3.554v-5.569c0-1.328-.475-2.236-1.686-2.236-1.595 0-2.554 1.072-2.981 2.106-.153.374-.192.896-.192 1.417v4.282h-3.546s.048-6.945 0-7.667h3.546v1.088c-.009.014-.021.033-.033.048h.033v-.048c.537-.827 1.585-2.001 3.86-2.001 2.814 0 4.922 1.84 4.922 5.792v4.788zM5.337 9.433c-1.144 0-1.915-.758-1.915-1.708 0-.959.77-1.708 1.915-1.708 1.144 0 1.916.749 1.916 1.708 0 .95-.772 1.708-1.916 1.708zm1.946 11.019H3.391V9.766h3.892v10.686zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.225 0z" />
+                    </svg>
+                </a>
+                <a href="#" class="social-icon" title="Twitter">
+                    <svg viewBox="0 0 24 24" fill="currentColor">
+                        <path
+                            d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2s9 5 20 5a9.5 9.5 0 00-9-5.5c4.75 2.25 7-7 7-7s1.1 1.1 2.5 1.1z" />
+                    </svg>
+                </a>
+                <a href="#" class="social-icon" title="Instagram">
+                    <svg viewBox="0 0 24 24" fill="currentColor">
+                        <rect x="2" y="2" width="20" height="20" rx="5" ry="5" fill="none" stroke="currentColor"
+                            stroke-width="2" />
+                        <path d="M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37z" fill="currentColor" />
+                        <circle cx="17.5" cy="6.5" r="1.5" fill="currentColor" />
+                    </svg>
+                </a>
+            </div>
+        </div>
+    </aside>
+
+    <!-- Main Content -->
+    <main class="main-content">
+
+        <!-- HOME PAGE -->
+        <section id="page-home" class="page active" data-page="home">
+            <div class="page-header">
+                <h2>Welcome</h2>
+                <p class="page-subtitle">To My Futuristic Digital Universe</p>
+            </div>
+            <div class="page-body">
+                <div class="welcome-card glassmorphism">
+                    <h3>👋 Hey, I'm Abhishek</h3>
+                    <p>
+                        <li>💻 Tech enthusiast & aspiring scientist</li>
+                        <li>🤖 Passionate about AI, space & advanced tech</li>
+                        <li>🏀 Sports, music & creative adventures</li>
+                        <li>🚀 Always exploring & learning new things</li>
+                    </p>
+                    <div class="welcome-buttons">
+                        <button class="btn btn-primary glow-btn welcome-btn" data-page="portfolio">View My Work</button>
+                        <button class="btn btn-secondary glow-btn welcome-btn" data-page="contact">Get In Touch</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ABOUT PAGE -->
+        <section id="page-about" class="page" data-page="about">
+            <div class="page-header">
+                <h2>About Me</h2>
+                <p class="page-subtitle">Know me better</p>
+            </div>
+            <div class="page-body">
+                <div class="about-card glassmorphism fade-in-up">
+                    <p class="about-text">
+                        Hi! I’m Abhishek Panigrahi, a passionate tech enthusiast and aspiring scientist with a keen
+                        interest in AI, space research, and advanced technologies. I love exploring new ideas, building
+                        projects, and constantly learning to push the boundaries of what’s possible. Outside of tech, I
+                        enjoy sports, music, and documenting my experiences creatively.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Tech stack -->
+        <section id="page-services" class="page" data-page="services">
+            <div class="page-header">
+                <h2>Tech Stack</h2>
+                <p class="page-subtitle">The skills I have</p>
+            </div>
+            <div class="page-body">
+                <div class="services-grid">
+                    <div class="service-card glassmorphism">
+                        <div class="service-icon">🎨</div>
+                        <h3>Web Design</h3>
+                        <p>Responsive, modern UI/UX design</p>
+                    </div>
+                    <div class="service-card glassmorphism">
+                        <div class="service-icon">⚡</div>
+                        <h3>Frontend Dev</h3>
+                        <p>HTML, CSS, JavaScript</p>
+                    </div>
+                    <div class="service-card glassmorphism">
+                        <div class="service-icon">💾</div>
+                        <h3>Database</h3>
+                        <p>Python, MySQL, Database</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- PROJECTS PAGE -->
+        <section id="page-portfolio" class="page" data-page="portfolio">
+            <div class="page-header">
+                <h2>Projects</h2>
+                <p class="page-subtitle">Featured Projects</p>
+            </div>
+            <div class="page-body">
+                <div class="portfolio-grid">
+                    <div class="portfolio-card glassmorphism">
+                        <div class="portfolio-image">
+                            <div class="holographic-effect"></div>
+                        </div>
+                        <h3>Portfolio Website V1</h3>
+                        <p>A full-featured portfolio website showcasing my projects, skills, and experiences.</p>
+                        <div class="project-tags">
+                            <span class="tag">HTML</span>
+                            <span class="tag">JavaScript</span>
+                            <span class="tag">CSS</span>
+                        </div>
+                        <div class="portfolio-links">
+                            <a href="#" class="project-link glow-btn">View Live</a>
+                            <a href="#" class="project-link glow-btn">Source Code</a>
+                        </div>
+                    </div>
+
+                    <div class="portfolio-card glassmorphism">
+                        <div class="portfolio-image">
+                            <div class="holographic-effect"></div>
+                        </div>
+                        <h3>Health-Care capstone</h3>
+                        <p>A modern, responsive healthcare website for exploring services, booking appointments, and connecting with medical professionals online.</p>
+                        <div class="project-tags">
+                            <span class="tag">HTML</span>
+                            <span class="tag">CSS</span>
+                            
+                        </div>
+                        <div class="portfolio-links">
+                            <a href="#" class="project-link glow-btn">View Live</a>
+                            <a href="#" class="project-link glow-btn">Source Code</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- CONTACT PAGE -->
+        <section id="page-contact" class="page" data-page="contact">
+            <div class="page-header">
+                <h2>Contact</h2>
+                <p class="page-subtitle">Get in touch with me</p>
+            </div>
+            <div class="page-body">
+                <div class="contact-wrapper">
+                    <!-- Contact Form -->
+                    <div class="contact-form glassmorphism">
+                        <h3>Send me a message</h3>
+                        <form id="contactForm">
+                            <div class="form-group">
+                                <input type="text" name="name" placeholder="Your Name" class="form-input" required>
+                                <span class="form-border"></span>
+                            </div>
+                            <div class="form-group">
+                                <input type="email" name="email" placeholder="Your Email" class="form-input" required>
+                                <span class="form-border"></span>
+                            </div>
+                            <div class="form-group">
+                                <input type="text" name="subject" placeholder="Subject" class="form-input" required>
+                                <span class="form-border"></span>
+                            </div>
+                            <div class="form-group">
+                                <textarea name="message" placeholder="Your Message" class="form-input form-textarea"
+                                    rows="4" required></textarea>
+                                <span class="form-border"></span>
+                            </div>
+                            <button type="submit" class="btn btn-primary glow-btn btn-submit">Send Message</button>
+                        </form>
+                    </div>
+
+                    <!-- Contact Info -->
+                    <div class="contact-info">
+                        <div class="info-card glassmorphism">
+                            <div class="info-icon">📧</div>
+                            <h4>Email</h4>
+                            <p>abhishek@example.com</p>
+                        </div>
+                        <div class="info-card glassmorphism">
+                            <div class="info-icon">📱</div>
+                            <h4>Phone</h4>
+                            <p>+91 6370171790</p>
+                        </div>
+                        <div class="info-card glassmorphism">
+                            <h4>Country</h4>
+                            <p>India</p>
+                            <div class="info-icon">
+                                <img src="https://www.svgrepo.com/show/299659/maps-and-flags-indian.svg" alt="">
+                            </div>
+
+                        </div>
+                        <div class="info-card glassmorphism">
+                            <div class="info-icon">📍</div>
+                            <h4>Address</h4>
+                            <div class="info-map">
+                                <iframe
+                                    src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3349.148544859166!2d85.10656558995666!3d20.115585728897862!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMjDCsDA2JzU2LjMiTiA4NcKwMDYnMzAuOCJF!5e1!3m2!1sen!2sin!4v1770730734639!5m2!1sen!2sin"
+                                    allowfullscreen loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+                                </iframe>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Scripts -->
+    <script src="Script.js"></script>
+</body>
+
+</html>
